@@ -1,0 +1,99 @@
+*{
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+.block{
+    display: block;
+}
+.block #p1{
+    background-color: lightblue;
+}
+.block #p2{
+    background-color: lightblue;
+}
+.inline{
+    display: inline;
+}
+.inline #p1{
+    display: inline;
+    background-color: lightgreen;
+}
+.inline #p2{
+    display: inline;
+
+    background-color: lightgreen;
+}
+.inline-block #p1{
+    display: inline-block;
+    background-color: lightpink;
+}
+.inline-block #p2{  
+    display: inline-block;
+    background-color: lightpink;
+}
+.none{
+    display:  none;
+    background-color: aliceblue;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex #p1{
+    background-color: lightgrey;
+}
+.flex #p2{
+    background-color: lightgrey;
+}
+.inline-flex{
+    display: inline-flex;
+    background-color: lightseagreen;
+}
+
+.grid{
+    flex-wrap: wrap;
+
+    display: flex;
+    /* grid-template-columns:  1fr 1fr 1fr; */
+    background-color: lightsalmon;
+}
+.grid p{
+flex-basis: 30%;
+}
+
+.inline-grid{
+    display: inline-grid;
+    background-color: aqua;
+    grid-template-columns:  1fr 1fr 1fr;
+
+}
+.list-items i{
+    display: list-item;
+    background-color: lightcyan;
+    margin-left: 40px;
+}
+.content {
+    display: contents;
+   background-color: aquamarine;
+}
+.content i{
+    background-color: blueviolet;
+}
+
+
+.inhertiance {
+display: inline;
+}
+
+.inhertiance div{
+display: inherit;    
+}
+
+
+
+
+
+
+
